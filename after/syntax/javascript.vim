@@ -5,7 +5,8 @@ endif
 " comparators
 syntax match jsOperator "<=" conceal cchar=≤
 syntax match jsOperator ">=" conceal cchar=≥
-syntax match jsOperator "!=\(=\)\?" conceal cchar=≢
+syntax match jsOperator "!==" conceal cchar=≢
+syntax match jsOperator "!=" conceal cchar=≢
 
 " math related
 syntax match jsOperator " / " conceal cchar=÷
