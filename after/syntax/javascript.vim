@@ -7,11 +7,15 @@ syntax match jsOperator "<=" conceal cchar=≤
 syntax match jsOperator ">=" conceal cchar=≥
 syntax match jsOperator "!==" conceal cchar=≢
 syntax match jsOperator "<<<" conceal cchar=⋘
-syntax match jsOperator "=>" conceal cchar=⇒
 syntax match jsOperator "&&" conceal cchar=∧
 syntax match jsOperator "||" conceal cchar=∨
 syntax match jsOperator "++" conceal cchar=Δ
+syntax match jsOperator "+=" conceal cchar=Δ
 syntax match jsOperator "--" conceal cchar=∇
+syntax match jsOperator "-=" conceal cchar=∇
+
+" arrow functions
+syntax match jsArrowFunction /=>/ conceal cchar=⇒
 
 " keywords
 syntax keyword jsNull null conceal cchar=∅
@@ -27,6 +31,8 @@ syntax keyword jsReturn return conceal cchar=⤺
 syntax keyword jsThis this conceal cchar=⟐
 syntax keyword jsStatement function conceal cchar=∫
 syntax keyword jsStorageClass const var let conceal cchar=፨
+
+" ∿
 
 hi link jsOperator Operator
 hi link jsStatement Statement
