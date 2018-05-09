@@ -21,14 +21,23 @@ syntax keyword jsConditional if conceal cchar=▸
 syntax keyword jsConditional else conceal cchar=▪
 syntax keyword jsRepeat for conceal cchar=∀
 syntax keyword jsRepeat while conceal cchar=∀
-syntax keyword jsKeyword in conceal cchar=∈
+syntax keyword jsOperator in conceal cchar=∈
+syntax keyword jsOperator of conceal cchar=∋
 syntax keyword jsReturn return conceal cchar=⤺
 syntax keyword jsThis this conceal cchar=⟐
 syntax keyword jsStatement function conceal cchar=∫
+syntax keyword jsStorageClass const var let conceal cchar=፨
 
 hi link jsOperator Operator
 hi link jsStatement Statement
 hi link jsKeyword Keyword
+
 hi! link Conceal Operator
+hi! link Conceal StorageClass
+hi! link Conceal Statement
+hi! link Conceal Special
+hi! link Conceal Type
+hi! link Conceal Boolean
+hi! link Conceal Conditional
 
 setlocal conceallevel=1
