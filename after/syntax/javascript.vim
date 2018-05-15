@@ -37,13 +37,16 @@ syntax keyword jsStorageClass const var let conceal cchar=፨
 hi link jsOperator Operator
 hi link jsStatement Statement
 hi link jsKeyword Keyword
+hi link jsNull Special
+hi link jsBooleanTrue Type
+hi link jsBooleanFalse Type
 
 hi! link Conceal Operator
 hi! link Conceal StorageClass
 hi! link Conceal Statement
-hi! link Conceal Special
-hi! link Conceal Type
-hi! link Conceal Boolean
-hi! link Conceal Conditional
+"hi! link Conceal Special
+"hi! link Conceal Type
+"hi! link Conceal Boolean
+"hi! link Conceal Conditional
 
 setlocal conceallevel=1
