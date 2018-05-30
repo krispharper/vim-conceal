@@ -6,6 +6,7 @@ endif
 syntax match jsOperator "<="  conceal cchar=≤
 syntax match jsOperator ">="  conceal cchar=≥
 syntax match jsOperator "!="  conceal cchar=≠
+syntax match jsOperator "===" conceal cchar=≡
 syntax match jsOperator "!==" conceal cchar=≢
 syntax match jsOperator "<<<" conceal cchar=⋘
 
