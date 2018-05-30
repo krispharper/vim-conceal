@@ -6,6 +6,7 @@ endif
 syntax match pyOperator "<=" conceal cchar=≤
 syntax match pyOperator ">=" conceal cchar=≥
 syntax match pyOperator "!=" conceal cchar=≠
+syntax match pyOperator "->" conceal cchar=→
 
 " math related
 syntax match pyKeyword "\<\%(math\.\)\?pi\>" conceal cchar=π
